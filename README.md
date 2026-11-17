@@ -5,16 +5,16 @@
 ## Встановлення
 
 ```
-pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ bracket-validator-lab
+python -m pip install --upgrade --no-cache-dir --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ batsur-bracket-validator
 ```
 
 ## Використання
 
 ```python
-from bracket_validator import validate
+from src.bracket_validator import validate
 
-validate("{[(<>)]}")                      # все гаразд, нічого не повертає
-validate("<div><p>{ test }}</p</div>")    # ValueError: Дужки незбалансовані на позиціях [16, 17]
+validate("{[(<>)]}")  # все гаразд, нічого не повертає
+validate("<div><p>{ test }}</p</div>")  # ValueError: Дужки незбалансовані на позиціях [16, 17]
 ```
 
 Із командного рядка:

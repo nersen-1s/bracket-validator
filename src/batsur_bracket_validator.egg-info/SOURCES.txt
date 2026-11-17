@@ -1,8 +1,0 @@
-README.md
-pyproject.toml
-src/batsur_bracket_validator.egg-info/PKG-INFO
-src/batsur_bracket_validator.egg-info/SOURCES.txt
-src/batsur_bracket_validator.egg-info/dependency_links.txt
-src/batsur_bracket_validator.egg-info/entry_points.txt
-src/batsur_bracket_validator.egg-info/top_level.txt
-tests/test_validator.py

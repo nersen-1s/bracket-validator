@@ -1,4 +1,4 @@
-from bracket_validator.validator import find_wrong_positions, highlight, validate
+from src.bracket_validator.validator import find_wrong_positions, highlight, validate
 
 
 def main():

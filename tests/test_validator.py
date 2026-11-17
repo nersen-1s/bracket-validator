@@ -5,8 +5,8 @@ import unittest
 from contextlib import redirect_stdout
 from unittest.mock import patch
 
-from bracket_validator import find_wrong_positions, highlight, validate
-from bracket_validator.cli import main
+from src.bracket_validator import find_wrong_positions, highlight, validate
+from src.bracket_validator.cli import main
 
 
 class TestFindWrongPositions(unittest.TestCase):
